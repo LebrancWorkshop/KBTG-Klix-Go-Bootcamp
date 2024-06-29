@@ -1,0 +1,11 @@
+go 1.21.5
+
+use (
+	./aws-lambda
+	./cache
+	./cache-redis
+	./codegen
+	./kafka
+	./messaging-queue
+	./swagger
+)
